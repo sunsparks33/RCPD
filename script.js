@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Prepare webhook payload
         const embedPayload = {
-            content: "||<@790715362219917342>|| & ||@everyone|| New Crime Report Submitted 🚨",
+            content: "||<@790715362219917342>| New Crime Report Submitted 🚨",
             embeds: [
                 {
                     title: "**Crime Report Information** 🚔",
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         **Crime Description**: \`\`\`${crimeDescription}\`\`\`
                         **Punishment**: \`\`\`${punishment}\`\`\`
                         **Date & Time**: \`\`\`${new Date(crimeTime).toLocaleString()}\`\`\`
-                       **Made By**: redaaa 🐱‍💻  aka(1_bp)
+                       **Made By**: redaaa 🐱‍💻 
                        `,
                     color: 16711680 , // Red color for the report
                     image: {
