@@ -1,0 +1,141 @@
+
+html{
+    background-color: black;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+p {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;  
+}
+span{
+    background: linear-gradient(
+      270deg,
+      #df8908 10%,
+      #ff1d15 100%
+    );
+  background-clip: text;
+  color: transparent;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+  span:hover{
+  background: linear-gradient(
+    270deg,
+    #ff1d15 10%,
+    #df8908 100%
+  );
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}  
+  h4{
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    float: center;
+    font-size: 20px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    }
+    .navbar a{
+      color: rgb(22, 22, 22);
+      text-decoration: none;
+      padding: 15px;
+      display: block;
+      text-align: center;
+    }
+    .navbar a:hover{
+        
+            background: linear-gradient(
+              270deg,
+              #df8908 10%,
+              #ff1d15 100%
+            );
+          
+    }
+    .navbar li{
+      float: left;
+    /* center icons for contact.html */
+    }
+    .social-media-icons {
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    }
+    .fa-brands.fa-facebook.fa-4x{
+color: blue;
+transition: 0.5s ease-in-out;
+    }
+    .fa-brands.fa-facebook.fa-4x :hover{
+        transition: 0.5s ease-in-out;
+    }
+    .fa-brands.fa-twitter.fa-4x{
+color: aqua;
+transition: 0.5s ease-in-out;
+    }
+    .fa-brands.fa-brands.fa-twitter.fa-4x{
+        transition: 0.5s ease-in-out;
+        color: aqua;
+    }
+    .fa-brands.fa-instagram.fa-4x{
+        color: rgb(255, 153, 142);
+        transition: 0.5s ease-in-out;
+        }
+        .fa-brands.fa-instagram.fa-4x :hover{
+            transition: 0.5s ease-in-out;
+        }
+    .fa-brands.fa-linkedin.fa-4x{
+        color: rgb(223, 43, 43);
+        transition: 0.5s ease-in-out;
+        }
+    .fa-brands.fa-linkedin.fa-4x :hover{
+        transition: 0.5s ease-in-out;
+    }
+    .fa-brands.fa-youtube.fa-4x{
+        color: hsl(0, 100%, 50%);
+        transition: 0.5s ease-in-out;
+        }
+    .fa-brands.fa-youtube.fa-4x :hover{        
+        transition: 0.5s ease-in-out;
+    }
+    .fa-brands.fa-github.fa-4x{
+        color: rgba(20, 20, 20, 0.801);
+        transition: 0.5s ease-in-out;
+        }
+    .fa-brands.fa-github.fa-4x :hover{
+        transition: 0.5s ease-in-out;
+    }
+        .fa-brands.fa-tiktok.fa-4x{
+        color: hsl(0, 0%, 10%);
+        transition: 0.5s ease-in-out;
+        }
+    .fa-brands.fa-tiktok.fa-4x :hover{
+        transition: 0.5s ease-in-out;
+    }
+footer{
+    color: white;
+    text-align: center;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1px;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}   
