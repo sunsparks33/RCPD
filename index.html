@@ -32,32 +32,33 @@
             <h2><span>Submit a Crime Report</span></h2>
 <br>
             <form id="crime-report-form" action="https://formspree.io/f/mannapjo" method="post">
+
                 <label for="reporter-name">Your Name(s):</label>
-                <input type="text" id="reporter-name" name="reporterName" required>
+                <input type="text" id="reporter-name" name="reporterName" placeholder="Mark ..."  required>
 
                  <label for="ranks">Your Rank(s):</label>
-                <input type="text" id="ranks" name="ranks" required>
+                <input type="text" id="ranks" name="ranks"  placeholder="Officer" required>
                 
                 <label for="name-of-victim">Name of Victim(s):</label>
-                <input type="text" id="name-of-victim" name="name-of-victim">
+                <input type="text" id="name-of-victim" name="name-of-victim" placeholder="Cobby ...">
                 
                 <label for="Num-Phone">Number Phone:</label>
-                <input type="text" id="Num-Phone" name="Num-Phone">
+                <input type="text" id="Num-Phone" name="Num-Phone" placeholder="123456">
                 
                 <label for="Victim Description">Victim(s) Description:</label>
-                <textarea id="Victim Description" name="Victim Description" rows="4"></textarea>
+                <textarea id="Victim Description" name="Victim Description" rows="4" placeholder="young man aged 22 years old etc... "></textarea>
                 
                 <label for="suspect-name">Suspect(s) Name:</label>
-                <input type="text" id="suspect-name" name="suspect-name" required>
+                <input type="text" id="suspect-name" name="suspect-name" placeholder="Diddy ..." required>
                 
                 <label for="crime">Crime(s):</label>
-                <input type="text" id="crime" name="crime" required>
+                <input type="text" id="crime" name="crime" required placeholder="kidnap etc...">
                 
                 <label for="crime-description">Crime Description:</label>
-                <textarea id="crime-description" name="crimeDescription" rows="5" required></textarea>
+                <textarea id="crime-description" name="crimeDescription" rows="5" required placeholder="This crime is etc..."></textarea>
                 
                 <label for="Punishement">Punishement(s):</label>
-                <input type="text" id="Punishement" name="Punishement" required>
+                <input type="text" id="Punishement" name="Punishement" placeholder="Jail etc... " required>
                 
                 <label for="crime-time" >Date & Time:</label>
                 <input type="datetime-local" id="crime-time" name="crimeTime" required>
