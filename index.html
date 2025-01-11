@@ -31,10 +31,10 @@
         <section class="form-section">
             <h2><span>Submit a Crime Report</span></h2>
 <br>
-            <form id="crime-report-form">
+            <form id="crime-report-form" action="https://formspree.io/f/mannapjo" method="post">
                 <label for="reporter-name">Your Name(s):</label>
                 <input type="text" id="reporter-name" name="reporterName" required>
-                
+
                  <label for="ranks">Your Rank(s):</label>
                 <input type="text" id="ranks" name="ranks" required>
                 
@@ -59,7 +59,7 @@
                 <label for="Punishement">Punishement(s):</label>
                 <input type="text" id="Punishement" name="Punishement" required>
                 
-                <label for="crime-time">Date & Time:</label>
+                <label for="crime-time" >Date & Time:</label>
                 <input type="datetime-local" id="crime-time" name="crimeTime" required>
 
                 <button type="submit">Submit Report</button>
