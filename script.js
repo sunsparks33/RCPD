@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Prepare webhook payload
         const embedPayload = {
-            content: "||<@365285018484080670>|| **New Crime Report Submitted** 🚨",
+            content: "@.1_bp **New Crime Report Submitted** 🚨",
             embeds: [
                 {
                     title: "**Crime Report Information** 🚔",
